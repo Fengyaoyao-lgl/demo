@@ -1,0 +1,430 @@
+/*
+* @Author: 冯瑶瑶
+* @Date:   2020-06-08 11:20:56
+* @Last Modified by:   Fengyaoyao-lgl
+* @Last Modified time: 2020-12-13 21:36:50
+*/
+
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration:none;
+}
+ul{
+	list-style-type: none;
+}
+.clear:after{
+	content: "";
+	height: 0;
+	display: block;
+	clear: both;
+}
+.header{
+	width: 1200px;
+	height: 50px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.logo{
+	width:100px;
+	height:50px;
+	float: left;
+}
+.lead1{
+	float: left;
+}
+.lead1 a{
+	font-size: 15px;
+	color: black;
+	line-height: 50px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.lead li:hover{
+	border-bottom: 1px solid #7FFFD4 ;
+}
+.lead1 a:hover{
+	color:#7FFFD4 ;
+}
+.form{
+	padding-top: 5px;
+}
+.search{
+	width:200px;
+	height:20px;
+	border: 2px solid #00A4FF;
+	height: 36px;
+	margin-top: 0px;
+	float: left;
+	margin-left: 187px;
+	padding-left: 19px;
+}
+.submit{
+	width:50px;
+	height:40px;
+	background:rgba(0,164,255,1) url(../images/big.png) no-repeat center center;
+	vertical-align: bottom;
+	float: left;
+	border:1px solid #00A4FF;
+}
+.top{
+	width: 1250px;
+	height: 2000px;
+	margin: 10px auto;
+	position: relative;
+	background: url(../images/r.jpg);
+}
+.poxiao{
+	width: 150px;
+	height: 240px;
+	position: absolute;
+	background: rgba(255,255,255,1);
+	top: 30px;
+	left: 20px;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 1000;
+}
+.ta{
+	position: absolute;
+	top: 32px;
+	left: 30px;
+}
+.lang{
+	position: absolute;
+	top: 62px;
+	left: 30px;
+}
+.qian{
+	position: absolute;
+	top: 92px;
+	left: 30px;
+}
+.xing{
+	position: absolute;
+	top: 122px;
+	left: 30px;
+}
+.r1{
+	position: absolute;
+	top: 82px;
+	left: 60px;
+}
+.shao{
+	position: absolute;
+	top: 112px;
+	left: 60px;
+}
+.nian{
+	position: absolute;
+	top: 142px;
+	left: 60px;
+}
+.dian{
+	position: absolute;
+	top: 122px;
+	left: 90px;
+}
+.feng{
+	position: absolute;
+	top: 152px;
+	left: 90px;
+}
+.xiang{
+	position: absolute;
+	top: 182px;
+	left: 90px;
+}
+.ying{
+	position: absolute;
+	top: 212px;
+	left: 90px;
+}
+.t1 a{
+	font-size: 60px;
+	color: #00CED1;
+	position: absolute;
+	left: 160px;
+}
+.t2 a{
+	font-size: 60px;
+	color: #00CED1;
+	position: absolute;
+	left: 800px;
+}
+.wonder{
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	left: 200px;
+	top: 0px;
+}
+
+.form1{
+	width: 360px;
+	height: 250px;
+	position: absolute;
+	top: 50px;
+	right:10px;
+	border: 1px solid black;
+	background: rgba(255,255,255,1);
+}
+.denglu{
+	text-align: center;
+	padding-top: 10px;
+	color: #00CED1;
+	font-size: 20px;
+}
+.search1{
+	width:340px;
+	height:40px;
+	border: 2px solid black;
+	height: 36px;
+	float: right;
+	margin-top: 30px;
+	margin-left: 187px;
+}
+.submit1{
+	width:340px;
+	height:40px;
+	border: 2px solid black;
+	height: 36px;
+	float: right;
+	margin-top: 30px;
+	margin-left: 187px;
+}
+
+.success{
+	width: 340px;
+	height: 30px;
+	float: right;
+	border: 1px solid black;
+	margin-top: 30px;
+
+}
+.jianjie{
+	width: 1250px;
+	height: 400px;
+	position: absolute;
+	top: 360px;
+	background: rgba(255,255,255,1);
+	border: 1px solid black;
+	background: #ccc
+}
+.jianjie h1{
+	position: absolute;
+	right: 220px;
+}
+.intro{
+	width: 400px;
+	height: 400px;
+	float: right;
+	margin-top:60px
+}
+.intro p{
+	line-height: 30px;
+}
+.four{
+	position: absolute;
+	top: 0;
+	height: 400px;
+}
+.work1{
+	width: 1250px;
+	height: 460px;
+	position: absolute;
+	top: 790px;
+	background: rgba(255,255,255,1);
+	border: 1px solid black;
+}
+.work1 h2{
+	text-align: center;
+}
+.zuopin{
+	width: 300px;
+	height: 400px;
+	margin-top: 30px;
+	margin-left: 50px;
+	margin-right: 60px;
+}
+.heiyiren{
+	width: 300px;
+	height: 70px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 393px;
+	left: 50px;
+	text-indent: 2em;
+	color: #FFE4E1;
+}
+.wukui{
+	width: 300px;
+	height: 70px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 393px;
+	left: 465px;
+	text-indent: 2em;
+	color: #FFE4E1;
+}
+
+.honor{
+	width: 300px;
+	height: 70px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 390px;
+	right: 70px;
+	text-indent: 2em;
+	color: #FFE4E1;
+}
+.work2{
+	width: 1250px;
+	height: 460px;
+	position: absolute;
+	top: 1300px;
+	background: rgba(255,255,255,1);
+	border: 1px solid black;
+}
+.work2 h2{
+	text-align: center;
+}
+.linse{
+	width: 300px;
+	height: 70px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 393px;
+	left: 50px;
+	text-indent: 2em;
+	color: #79CDCD;
+	line-height: 70px;
+}
+.world{
+	width: 300px;
+	height: 70px;
+	line-height: 70px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 393px;
+	left: 465px;
+	text-indent: 2em;
+	color: #79CDCD;
+}
+
+.zhidi{
+	width: 300px;
+	height: 70px;
+	line-height: 70px;
+	background: rgba(0,0,0,0.4);
+	position: absolute;
+	top: 390px;
+	right: 70px;
+	text-indent: 2em;
+	color: #79CDCD;
+}
+.work3{
+	width: 1250px;
+	height: 460px;
+	position: absolute;
+	top: 1800px;
+	background: rgba(255,255,255,1);
+	border: 1px solid black;
+}
+.work3 h2{
+	text-align: center;
+}
+.last{
+	width:1255px ;
+    height: 120px;
+    background-color: #000;
+    position: absolute;
+    top: 2300px;
+}
+.foot{
+	line-height: 120px;
+	color: white;
+	margin-left: 500px;
+}
+#box1{
+	width: 350px;
+	height: 10px;
+	font-size: 1px;
+	margin-left: 15px;
+	color:#A9A9A9 ;
+}
+#box2{
+	width: 350px;
+	height: 10px;
+	margin-left: 15px;
+	font-size: 1px;
+	color:#A9A9A9 ;
+}
+
+.slider img{
+	width: 600px;
+	height: 300px;
+}
+#time{
+	color: #ccc;
+	text-align: center;
+	width: 200px;
+	display: inline-block;
+	position: absolute;
+	right: 100px;
+	top: 15px;
+}
+#small{
+	width: 600px;
+	height: 300px;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+}
+#smaller{
+	position: relative;
+	margin-left: 100px;
+	
+}
+.small{
+    width: 600px;
+    height: 300px;
+}
+#slider{
+    position: absolute;
+    top: 20px;
+    width: 100px;
+    height: 100px;
+    display: none;
+    background-color: rgba(100,100,100,0.5);
+}
+#smallBox{
+	width:600px;
+	height: 300px;
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+	left: 650px;
+	overflow: hidden;
+}
+#smallBox img{
+	width: 1800px;
+	position: absolute;
+}
+ .look{ 
+	float: left;
+	line-height: 30px;
+	font-size: 15px;
+	font-weight: 1000;
+	display: inline-block;
+	color:#CDEFCC ;
+	margin-top: 60px;
+	margin-left: 20px;
+}
+
+
+         
+
+
