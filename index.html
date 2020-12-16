@@ -32,6 +32,21 @@
 			    </form> 
 			</ul>
 		</div>
+		 <div class="barrage">
+		 	<span class="word">
+		 		欢迎来到R1SEClub,当我在追光，我与光同航。愿你们岁岁步步如愿以偿
+		 	</span>
+		 </div>
+		 <script>
+		 	var barrage=document.getElementsByClassName("barrage")[0];
+		 	var word=document.getElementsByClassName("word")[0];
+		 	word.style.marginLeft=400+"px";
+		 	setInterval(function(){
+		 		word.style.marginLeft=parseInt(word.style.marginLeft)-1+"px";
+
+		 	},30)
+
+		 </script>
 		<div class="look">
 			<ul >
 				<li>R1SE</li>
@@ -57,7 +72,7 @@
         smaller.onmousemove=function(ev){
             var left=ev.clientX-50-smaller.offsetLeft;
             var top=ev.clientY-50-smaller.offsetTop;
-            left=left<0?0:left>500?500:left;
+            left=left<50?50:left>550?550:left;
             top=top<0?0:top>200?200:top;
 
             slider.style.left=left+'px';
@@ -77,6 +92,7 @@
             smallBox.style.display = 'none';
         }
     </script>
+   
 		<div class="top">
 			<div class="poxiao">
 				<ul>
@@ -162,19 +178,12 @@
 			</div>
 			<script>
 				var more=document.getElementsByClassName("more")[0];
-				var flag=0;
 				var time;
 				more.onclick=function(){
-					flag++;	
-					if(flag%2!=0){
 						alert("即将跳转");
 						time=setTimeout(function(){
 							window.open("https://baike.sogou.com/v181957678.htm?fromTitle=R1SE");
 						},5000)
-					}else{
-						alert("停止跳转");
-						clearTimeout(time);
-					}
 			    }
 			</script>
 			<div class="work1">
